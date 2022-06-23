@@ -1,0 +1,28 @@
+/*****************************************************************************************
+* Java program that takes two names as command line arguments and prints hello and goodbye messages as follows:
+*hello alice and james
+*goodbye james and alice
+******************************************************************************************/
+
+public class HelloGoodbye {
+
+public static void main(String [] args) {
+  System.out.println("Hello " + args[0] + " and " + args[1]); // 
+  System.out.println("Goodbye " + args[1] + " and " + args[0]);
+}
+
+}
+/***************************************************************************************
+* Run this program in the command line
+* in the command line type the following:
+*/>javac HelloGoodbye.java
+*/>java HelloGoodbye alice james
+*
+*notice the use of javac command, the first line on the command line it converts the java code into byte code. This statement creates a dot class file i.e
+*HelloGoodbye.class
+*the second line runs the dot class code with two names arguments infront of the file name. notice the names alice and james
+
+*Output
+*The program will output:
+*Hello alice and james
+*Goodbye james and alice
